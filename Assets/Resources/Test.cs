@@ -10,25 +10,7 @@ public class Test : MonoBehaviour
         int[] A = { -1 , 1 };
         Debug.Log(Pair(A));
     }
-
-    public int Solution(int[] A, int L, int R)
-    {
-        int count = 0;
-        for(int i = 0; i < A.Length; i++)
-        {
-            if(A[i] == R)
-            {
-                count++;
-            }
-        }
-
-        for(int i = 0; i < count; i++)
-        {
-            if(10)
-        }
-    }
-
-
+    
     public bool Pair(int[] A)
     {
         int count = 0;
